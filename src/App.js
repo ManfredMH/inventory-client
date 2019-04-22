@@ -16,16 +16,6 @@ import Login from './components/Auth/Login';
 import Session from './Session';
 
 class App extends Component {
-  state = {
-    isAuthenticated: false
-  }
-  componentDidMount() {
-    if (this.props.getUser) {
-      this.setState({
-        isAuthenticated: true
-      });
-    }
-  }
   render() {
     const { refetch, session } = this.props;
     const { getUser } = session;

@@ -22,7 +22,7 @@ const NavbarNoAutheticated = () => (
 
 const NavbarAutheticated = (session) => (
   <React.Fragment>
-    <Link to="/panel" className="navbar-brand text-light font-weight-bold" >CRM</Link>
+    <Link to="/panel" className="navbar-brand text-light font-weight-bold" >Inventory</Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegation" aria-controls="navegation" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
